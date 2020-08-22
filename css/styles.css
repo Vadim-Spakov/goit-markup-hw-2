@@ -44,7 +44,7 @@ a {
 
 .site-nav .link-a:hover,
 .site-nav .link-a:focus {
-  color: var(--title-text-color);
+  color: var(--accent-color);
 }
 
 .hero-title {
