@@ -14,6 +14,7 @@ body {
   background-color: #ffffff;
   color: var(--primaru-text-color);
 }
+
 .list {
   list-style: none;
 }
@@ -23,6 +24,9 @@ a {
 
 .logo {
   color: var(--accent-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
 }
 .colortext {
   color: var(--title-text-color);
@@ -47,15 +51,57 @@ a {
   color: var(--accent-color);
 }
 
-.hero-title {
+.hero {
   color: var(--hero-title);
   background-color: #2f303a;
-}
-
-.section-title {
-  color: var(--title-text-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 900;
 }
 
 .feature-list .title {
   color: var(--title-text-color);
+}
+
+.section-title {
+  color: var(--title-text-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.command {
+  color: var(--title-text-color);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+}
+
+.Basement {
+  color: var(--accent-color);
+  background-color: #2f303a;
+}
+
+.logo-2 {
+  color: var(--accent-color);
+  font-family: "Raleway";
+  font-style: normal;
+  font-weight: bold;
+}
+
+.colortextwhite {
+  color: var(--hero-title);
+}
+.address-name {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
+  color: var(--hero-title);
+}
+
+.mailtel {
+  color: rgba(255, 255, 255, 0.6);
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: normal;
 }
