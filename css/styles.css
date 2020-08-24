@@ -22,11 +22,15 @@ a {
   text-decoration: none;
 }
 
+/* Logo */
+
 .logo {
   color: var(--accent-color);
   font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
 }
 .colortext {
   color: var(--title-text-color);
@@ -36,45 +40,139 @@ a {
 
 .site-nav .link {
   color: var(--accent-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
+
 .site-nav .link-a {
-  color: ;
+  color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .site-nav .link:hover,
 .site-nav .link:focus {
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
 
 .site-nav .link-a:hover,
 .site-nav .link-a:focus {
   color: var(--accent-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
 }
+
+/* auth-nav*/
+
+.auth-nav {
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.auth-nav .mail {
+  color: var(--accent-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.auth-nav .telefon {
+  color: var(--primaru-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.auth-nav .mail:hover,
+.auth-nav .mail:focus {
+  color: var(--primaru-text-color);
+}
+
+.auth-nav .telefon:hover,
+.auth-nav .telefon:focus {
+  color: var(--accent-color);
+}
+
+/* Hero*/
 
 .hero {
   color: var(--hero-title);
   background-color: #2f303a;
+}
+.hero-title {
   font-family: "Roboto";
   font-style: normal;
   font-weight: 900;
+  font-size: 44px;
+  line-height: 60px;
 }
+
+/* Feature-list*/
 
 .feature-list .title {
   color: var(--title-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.feature-list .text {
+  color: var(--primaru-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .section-title {
   color: var(--title-text-color);
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: bold;
+  font-size: 36px;
+  line-height: 42px;
 }
 
 .command {
   color: var(--title-text-color);
-  font-family: "Roboto";
+  font-family: Roboto;
   font-style: normal;
   font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+}
+
+.profession {
+  color: var(--primaru-text-color);
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 16px;
+  line-height: 19px;
 }
 
 .Basement {
@@ -87,16 +185,20 @@ a {
   font-family: "Raleway";
   font-style: normal;
   font-weight: bold;
+  font-size: 26px;
+  line-height: 31px;
 }
 
 .colortextwhite {
   color: var(--hero-title);
 }
 .address-name {
+  color: var(--hero-title);
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
-  color: var(--hero-title);
+  font-size: 14px;
+  line-height: 24px;
 }
 
 .mailtel {
@@ -104,4 +206,6 @@ a {
   font-family: "Roboto";
   font-style: normal;
   font-weight: normal;
+  font-size: 14px;
+  line-height: 24px;
 }
